@@ -1,4 +1,6 @@
 # Stealth_Audit_Scraper
+## The new script offers improvements in flexibility (headless mode, login handling), robustness (element selection, error handling), performance (file writing, delay reduction), and code readability. These changes make the script more reliable, adaptable, and maintainable.
+
 ![stealth_audit](https://user-images.githubusercontent.com/34954477/162237700-5fed2379-0f1d-46f7-ac4d-bcecfa6239c6.png)
 
 This tool was created to scrape the <a href ="https://stealthbits.com/stealthaudit-for-active-directory-product/">StealthAUDIT Active Directory Auditing Tool</a>. Currently, it scrapes the users name and NT account name from `Active Directory > Users > User Token`. I wrote this because I had no foothold on a network and came across this gem. I immedately scraped all AD users then started spraying passwords! Right now this tool only works with passwordless StealthAUDIT instances. Good luck, have fun!
